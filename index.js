@@ -27,7 +27,7 @@ app.use('/api/becas', becaRoute);
 
 // Definiendo la conexión a base de datos a través de mongoose
 // La conexión a base de datos es de tipo promesa
-mongoose.connect('mongodb+srv://utp0159311:jok8ZRasDYoO3ck1@cluster0.8sqlw.mongodb.net/BD_SUBES.SUBES_2025-1')
+mongoose.connect('mongodb+srv://utp0159311:jok8ZRasDYoO3ck1@cluster0.8sqlw.mongodb.net')
 .then(() => {
     console.log('Conectando a la base de datos de manera exitosa');
     app.listen(3000, () => {
